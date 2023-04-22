@@ -2,5 +2,6 @@
 # BSCpE 1-4
 # Assignment 4 - Problem 1
 
-# Write each even number to a new line
-file.write(str(number) + "\n") 
+# Create odd.txt and write odd numbers to it
+with open("odd.txt", "w") as file:
+    for number in odd_numbers:
