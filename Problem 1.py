@@ -2,5 +2,8 @@
 # BSCpE 1-4
 # Assignment 4 - Problem 1
 
-# Read the numbers and split them into a list
-numbers = input.read().split() 
+# List to store even numbers
+even_numbers = [] 
+
+# List to store odd numbers
+odd_numbers = []  
