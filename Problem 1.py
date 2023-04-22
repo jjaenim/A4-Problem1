@@ -2,6 +2,5 @@
 # BSCpE 1-4
 # Assignment 4 - Problem 1
 
-# Create even.txt and write even numbers to it
-with open("even.txt", "w") as file:
-    for number in even_numbers:
+# Write each even number to a new line
+file.write(str(number) + "\n") 
