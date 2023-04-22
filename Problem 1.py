@@ -2,6 +2,5 @@
 # BSCpE 1-4
 # Assignment 4 - Problem 1
 
-# Create odd.txt and write odd numbers to it
-with open("odd.txt", "w") as file:
-    for number in odd_numbers:
+# Write each odd number to a new line
+file.write(str(number) + "\n") 
