@@ -2,5 +2,6 @@
 # BSCpE 1-4
 # Assignment 4 - Problem 1
 
-# Iterate through the numbers and categorize them as even or odd
-for number in numbers:
+# Convert the number from string to integer
+number = int(number) 
+    if number % 2 == 0:
